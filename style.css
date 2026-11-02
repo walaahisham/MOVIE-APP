@@ -1,0 +1,67 @@
+
+/* General Settings */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Dark Mode */
+
+body.dark-mode {
+    background-color: #171717;
+    color: #ffffff;
+}
+
+body.dark-mode header {
+    background-color: #262626;
+}
+
+body.dark-mode .show-card {
+    background-color: #262626;
+    color: #ffffff;
+}
+
+body.dark-mode .show-card p {
+    color: #d1d5db;
+}
+
+/* Search Form */
+
+body.dark-mode #search-form {
+    background-color: #262626;
+    color: #ffffff;
+}
+
+body.dark-mode #search-input {
+    color: #ffffff;
+}
+
+body.dark-mode #sort {
+    background-color: #404040;
+    color: #ffffff;
+}
+
+/* Genre Buttons */
+
+body.dark-mode .genre-button:not(.bg-red-700) {
+    background-color: #404040;
+    color: #ffffff;
+}
+
+/* Modal */
+
+body.dark-mode .modal-dialog {
+    background-color: #262626;
+    color: #ffffff;
+}
+
+body.dark-mode .modal-dialog p {
+    color: #d1d5db;
+}
+
+/* Selection */
+
+::selection {
+    background-color: #b91c1c;
+    color: white;
+}
